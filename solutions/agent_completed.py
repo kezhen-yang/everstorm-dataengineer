@@ -45,10 +45,10 @@ def policy_lookup(question: str) -> str:
         # --- was #REPLACE RAG-CONVERT EMBEDDING ---
         # RETRIEVAL_QUERY, not RETRIEVAL_DOCUMENT. Documents and questions are
         # embedded with deliberately different strategies so that a question
-        # lands near its answer. The upstream codelab uses RETRIEVAL_DOCUMENT
-        # here; both "work" because the vectors share a space, but this is the
-        # correct asymmetric pairing and it matches the BigQuery VECTOR_SEARCH
-        # example taught earlier in the workshop.
+        # lands near its answer. Using RETRIEVAL_DOCUMENT on both sides still
+        # "works" because the vectors share a space, but this is the correct
+        # asymmetric pairing and it matches the BigQuery VECTOR_SEARCH example
+        # taught earlier in the workshop.
         result = client.models.embed_content(
             model="text-embedding-005",
             contents=question,

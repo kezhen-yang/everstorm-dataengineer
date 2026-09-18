@@ -3,12 +3,10 @@
 An AI knowledge-base and production-RAG workshop on Google Cloud, built around a
 synthetic outdoor-gear retailer called **Everstorm Outfitters**.
 
-Adapted from Google Cloud's
-[Agentverse Data Engineer codelab](https://codelabs.developers.google.com/agentverse-dataengineer/instructions)
-([source repo](https://github.com/weimeilin79/agentverse-dataengineer)). Same
-architecture, same services, same five parts — the fantasy RPG framing is
-replaced with a customer-support scenario that a business audience recognises
-immediately.
+You take 180 free-text customer-support case notes and 28 policy documents —
+neither of which anyone can currently query — and turn the first into a
+relational table and the second into a deployed agent that answers questions
+from them.
 
 ## What you build
 
@@ -122,34 +120,30 @@ gcloud storage ls gs://${BUCKET_NAME}/kb/      | wc -l   # 263
 gcloud sql instances describe $INSTANCE_NAME --format='value(state)'  # RUNNABLE
 ```
 
-## Naming
+## Resource names
 
-| Upstream | Here |
+Everything is defined in `set_env.sh`, so nothing is hardcoded twice.
+
+| Resource | Name |
 |---|---|
-| `bestiary_data` | `everstorm_data` (BigQuery dataset) |
-| `raw_intel_content_table` | `raw_tickets_table` |
-| `monsters` / `adventurers` / `battles` | `tickets` / `orders` / `resolutions` |
-| `ancient_scrolls` (Cloud SQL table) | `policy_chunks` |
-| `gs://…/raw_intel/` | `gs://…/tickets/` |
-| `gs://…/ancient_scrolls/` | `gs://…/kb/` |
-| `grimoire-spellbook` | `everstorm-kb-db` |
-| `arcane_wisdom` | `everstorm_kb` |
-| `scholar/` | `support_agent/` |
-| `grimoire_lookup(monster_name)` | `policy_lookup(question)` |
-| `inscribe_essence_pipeline.py` | `vectorize_kb_pipeline.py` |
-| `scholar-agent` | `everstorm-support-agent` |
+| BigQuery dataset | `everstorm_data` |
+| External table over the tickets | `raw_tickets_table` |
+| Extracted tables | `tickets` / `orders` / `resolutions` |
+| Cloud SQL instance / database | `everstorm-kb-db` / `everstorm_kb` |
+| Cloud SQL vector table | `policy_chunks` |
+| GCS prefixes | `gs://…/tickets/`, `gs://…/kb/` |
+| Dataflow worker image | `everstorm-vectorizer` |
+| Agent package / Cloud Run service | `support_agent/` / `everstorm-support-agent` |
 
-Unlike the upstream repo, the Cloud SQL table name is consistent across the DDL,
-the pipeline and the agent, and the pipeline reads it from `--kb_table` rather
-than hardcoding it.
+The vector table name is consistent across the DDL, the pipeline and the agent,
+and the pipeline reads it from `--kb_table` rather than hardcoding it.
 
 ## Fill-in-the-blanks markers
 
 `support_agent/agent.py` and `pipeline/vectorize_kb_pipeline.py` ship with
-`#REPLACE` markers for the workshop, exactly like upstream. **They will not run
+`#REPLACE` markers — the parts you write during the workshop. **They will not run
 until you fill them in**, and the pipeline file does not even parse, because its
-`with` block contains only comments. That is inherited upstream behaviour, kept
-deliberately.
+`with` block contains only comments until you add the stages.
 
 Completed reference copies are in `solutions/` — for the instructor to recover
 from a bad live edit, not for the student path.
@@ -159,10 +153,11 @@ from a bad live edit, not for the student path.
 | `support_agent/agent.py` | `RAG-CONVERT EMBEDDING`, `RAG-RETRIEVE`, `-CALL RAG` |
 | `pipeline/vectorize_kb_pipeline.py` | `EMBEDDING-LOGIC`, `READFILE`, `EMBEDDING`, `WRITE TO DB`, `LOG FAILURES` |
 
-One deliberate change from upstream: the agent embeds the **query** with
-`task_type="RETRIEVAL_QUERY"`, not `RETRIEVAL_DOCUMENT`. Both work, since the
-vectors share a space, but the asymmetric pairing is correct and it matches the
-`VECTOR_SEARCH` example taught in Part 2.
+Note the asymmetry when you fill them in: the corpus is embedded with
+`task_type="RETRIEVAL_DOCUMENT"` and the query with `"RETRIEVAL_QUERY"`. A
+question and its answer are differently shaped text, so the model embeds them
+with different strategies to make them land near each other. This matches the
+`VECTOR_SEARCH` example in Part 2.
 
 ## Cloud SQL schema
 
@@ -217,7 +212,8 @@ The Cloud SQL instance is the expensive one. Confirm it actually goes.
 
 ## Credits
 
-Derived from the Agentverse Data Engineer codelab by Google Cloud
-([weimeilin79/agentverse-dataengineer](https://github.com/weimeilin79/agentverse-dataengineer)).
-The architecture, pipeline structure and ADK/A2A scaffolding are theirs; the
-Everstorm dataset, the evaluation sets and the adaptation are not.
+Build scaffolding (setup scripts, Beam pipeline structure, ADK/A2A server and
+executor, Dockerfiles) originates from the Agentverse Data Engineer codelab by
+Google Cloud —
+[weimeilin79/agentverse-dataengineer](https://github.com/weimeilin79/agentverse-dataengineer).
+The Everstorm dataset, evaluation sets and workshop materials are original.
