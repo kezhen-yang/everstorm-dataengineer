@@ -10,8 +10,7 @@ notes and timings, see `TEACHING-FLOW.md` in the companion notes repo.
 ```bash
 gcloud auth list
 
-gh auth login    # the repo is private
-gh repo clone kezhen-yang/everstorm-dataengineer ~/everstorm-dataengineer
+git clone https://github.com/kezhen-yang/everstorm-dataengineer.git ~/everstorm-dataengineer
 cd ~/everstorm-dataengineer
 chmod +x *.sh
 ./init.sh

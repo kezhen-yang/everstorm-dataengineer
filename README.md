@@ -96,8 +96,7 @@ those real columns and filter on them in SQL.
 ## Quick start
 
 ```bash
-gh auth login    # the repo is private
-gh repo clone kezhen-yang/everstorm-dataengineer ~/everstorm-dataengineer
+git clone https://github.com/kezhen-yang/everstorm-dataengineer.git ~/everstorm-dataengineer
 cd ~/everstorm-dataengineer
 chmod +x *.sh
 ./init.sh                      # creates/selects the GCP project, enables billing
