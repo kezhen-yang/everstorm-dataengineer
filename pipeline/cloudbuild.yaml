@@ -1,0 +1,19 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args:
+  - 'build'
+  - '--tag'
+  - '${_REGION}-docker.pkg.dev/${PROJECT_ID}/${_REPO_NAME}/${_IMAGE_NAME}:latest'
+  - '--build-arg'
+  - 'GOOGLE_CLOUD_PROJECT=${PROJECT_ID}'
+  - '--build-arg'
+  - 'GOOGLE_CLOUD_LOCATION=${_REGION}'
+  - '.'
+
+images:
+- '${_REGION}-docker.pkg.dev/${PROJECT_ID}/${_REPO_NAME}/${_IMAGE_NAME}:latest'
+
+substitutions:
+  _REGION: 'us-central1'
+  _REPO_NAME: 'everstorm-repo'
+  _IMAGE_NAME: 'everstorm-vectorizer'

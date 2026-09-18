@@ -1,0 +1,181 @@
+ticket_id,opened_date,closed_date,channel,agent,issue_category,priority,order_id,sku,product_name,product_category,region,fulfillment_center,carrier,payment_method,resolution_days,refund_amount_usd,outcome,csat
+TCK-2026-01-1000,2026-01-12,2026-01-16,Instagram DM,Ines Ferreira,damaged_in_transit,high,EVS-895558,EVS-FTW-002,Creek Approach Shoe,footwear,US East,Harrisburg PA,UPS Ground,PayPal,4,165.00,refunded,
+TCK-2025-11-1001,2025-11-17,2025-11-24,email,Amara Boateng,return_request,normal,EVS-959920,EVS-JKT-002,Drift Insulated Parka,outerwear,Japan/SG,Reno NV,DHL Express,Mastercard,5,427.00,refunded,4
+TCK-2025-10-1002,2025-10-26,2025-11-05,phone,Amara Boateng,shipping_delay,normal,EVS-731963,EVS-FTW-002,Creek Approach Shoe,footwear,AU/NZ,Reno NV,FedEx Int'l Priority,Google Pay,8,,replaced,4
+TCK-2025-10-1003,2025-10-11,2025-10-17,Instagram DM,Nadia Haddad,payment_declined,normal,EVS-765379,EVS-BAS-001,Ridgeline Merino 200 Crew,baselayer,EU,Rotterdam NL,DPD,American Express,5,,resolved,3
+TCK-2026-05-1004,2026-05-11,2026-05-29,phone,Siobhan Carey,refund_status,normal,EVS-904486,EVS-JKT-002,Drift Insulated Parka,outerwear,Japan/SG,Reno NV,DHL Express,Klarna Pay-in-4,14,449.00,refunded,4
+TCK-2026-08-1005,2026-08-25,2026-08-31,phone,Siobhan Carey,return_request,normal,EVS-831221,EVS-FTW-002,Creek Approach Shoe,footwear,UK,Rotterdam NL,DHL Express,PayPal,4,150.00,refunded,
+TCK-2026-06-1006,2026-06-02,2026-06-03,web form,Marcus Oyelaran,product_question,low,EVS-903378,EVS-BAS-001,Ridgeline Merino 200 Crew,baselayer,US East,Harrisburg PA,UPS Ground,Google Pay,1,,resolved,4
+TCK-2026-01-1007,2026-01-25,2026-01-28,Instagram DM,Priya Raghunathan,exchange_sizing,normal,EVS-934943,EVS-JKT-001,Tempest 3L Shell Jacket,outerwear,AU/NZ,Reno NV,FedEx Int'l Priority,Apple Pay,3,,replaced,3
+TCK-2025-11-1008,2025-11-10,2025-11-11,Instagram DM,Priya Raghunathan,shipping_delay,normal,EVS-884315,EVS-JKT-001,Tempest 3L Shell Jacket,outerwear,US Midwest,Harrisburg PA,UPS Ground,Visa,1,19.95,resolved,4
+TCK-2026-06-1009,2026-06-12,2026-06-24,phone,Nadia Haddad,warranty_claim,normal,EVS-915781,EVS-PNT-001,Switchback Trail-Stretch Pant,apparel,Japan/SG,Reno NV,DHL Express,PayPal,8,,closed_no_action,5
+TCK-2026-06-1010,2026-06-04,2026-06-17,email,Nadia Haddad,refund_status,normal,EVS-884140,EVS-ELC-001,Lumen 400 Headlamp,electronics,US West,Reno NV,UPS Ground,Google Pay,9,79.00,refunded,4
+TCK-2026-06-1011,2026-06-10,2026-06-12,web form,Ken Nakamura,return_request,normal,EVS-872396,EVS-PNT-002,Granite Softshell Pant,apparel,US West,Reno NV,UPS Ground,Mastercard,2,159.00,refunded,
+TCK-2026-03-1012,2026-03-30,2026-04-07,email,Ken Nakamura,warranty_claim,high,EVS-741521,EVS-FTW-001,Summit GTX Hiking Boot,footwear,AU/NZ,Reno NV,FedEx Int'l Priority,Google Pay,6,,replaced,2
+TCK-2026-08-1013,2026-08-24,2026-08-25,live chat,Gil Sandoval,shipping_delay,high,EVS-912190,EVS-FTW-001,Summit GTX Hiking Boot,footwear,Japan/SG,Reno NV,DHL Express,PayPal,1,245.00,refunded,5
+TCK-2025-10-1014,2025-10-10,2025-10-17,Instagram DM,Everett Brooks,shipping_delay,normal,EVS-981585,EVS-JKT-003,Kestrel Windshell,outerwear,Canada,Reno NV,Canada Post,Mastercard,5,,resolved,2
+TCK-2026-05-1015,2026-05-07,2026-05-20,email,Ken Nakamura,warranty_claim,normal,EVS-828662,EVS-ACC-002,Belay Glove,accessories,Canada,Reno NV,Canada Post,Visa,9,,replaced,4
+TCK-2025-10-1016,2025-10-10,2025-10-21,web form,Siobhan Carey,exchange_sizing,normal,EVS-956993,EVS-JKT-001,Tempest 3L Shell Jacket,outerwear,US West,Reno NV,UPS Ground,Shop Pay,7,,replaced,
+TCK-2025-10-1017,2025-10-24,2025-10-31,web form,Dana Whitcomb,return_request,normal,EVS-777577,EVS-JKT-001,Tempest 3L Shell Jacket,outerwear,US Midwest,Harrisburg PA,UPS Ground,Shop Pay,5,389.00,refunded,4
+TCK-2025-10-1018,2025-10-29,2025-11-03,phone,Tobias Lindqvist,order_cancellation,normal,EVS-872121,EVS-ACC-001,Stormglass Merino Beanie,accessories,US Midwest,Harrisburg PA,UPS Ground,PayPal,3,,resolved,
+TCK-2025-10-1019,2025-10-15,2025-10-23,live chat,Everett Brooks,refund_status,normal,EVS-959217,EVS-ELC-001,Lumen 400 Headlamp,electronics,US Midwest,Harrisburg PA,UPS Ground,American Express,6,79.00,refunded,2
+TCK-2026-08-1020,2026-08-29,2026-09-10,email,Everett Brooks,warranty_claim,high,EVS-963017,EVS-FTW-001,Summit GTX Hiking Boot,footwear,US East,Harrisburg PA,UPS Ground,Apple Pay,9,,replaced,5
+TCK-2025-11-1021,2025-11-30,2025-12-10,web form,Everett Brooks,exchange_sizing,normal,EVS-956887,EVS-PNT-002,Granite Softshell Pant,apparel,US Midwest,Harrisburg PA,UPS Ground,Shop Pay,8,,replaced,4
+TCK-2026-08-1022,2026-08-22,2026-09-03,web form,Everett Brooks,warranty_claim,normal,EVS-931892,EVS-BAS-001,Ridgeline Merino 200 Crew,baselayer,EU,Rotterdam NL,DPD,PayPal,9,,replaced,4
+TCK-2026-04-1023,2026-04-11,2026-04-16,email,Ken Nakamura,order_cancellation,normal,EVS-726277,EVS-JKT-003,Kestrel Windshell,outerwear,US Midwest,Harrisburg PA,UPS Ground,Shop Pay,4,,resolved,
+TCK-2025-09-1024,2025-09-28,2025-10-08,email,Priya Raghunathan,refund_status,normal,EVS-936154,EVS-FTW-002,Creek Approach Shoe,footwear,US West,Reno NV,UPS Ground,Apple Pay,8,165.00,refunded,2
+TCK-2025-12-1025,2025-12-08,2025-12-18,web form,Siobhan Carey,warranty_claim,normal,EVS-916636,EVS-JKT-002,Drift Insulated Parka,outerwear,Japan/SG,Reno NV,DHL Express,PayPal,8,,replaced,5
+TCK-2025-12-1026,2025-12-25,2025-12-30,Instagram DM,Marcus Oyelaran,address_change,high,EVS-998206,EVS-PCK-001,Haul 45 Canvas Pack,packs,Japan/SG,Reno NV,DHL Express,PayPal,3,,resolved,4
+TCK-2026-02-1027,2026-02-08,2026-02-13,web form,Tobias Lindqvist,exchange_sizing,normal,EVS-730952,EVS-TEE-001,Basecamp Unisex Tee,apparel,US Midwest,Harrisburg PA,UPS Ground,Mastercard,5,,replaced,5
+TCK-2025-12-1028,2025-12-21,2026-01-02,live chat,Ken Nakamura,refund_status,normal,EVS-924699,EVS-BAS-002,Ridgeline Merino 200 Bottom,baselayer,EU,Rotterdam NL,DPD,Mastercard,10,99.00,refunded,5
+TCK-2026-08-1029,2026-08-10,2026-08-27,live chat,Nadia Haddad,refund_status,normal,EVS-713542,EVS-JKT-002,Drift Insulated Parka,outerwear,US Midwest,Harrisburg PA,UPS Ground,Shop Pay,13,449.00,refunded,1
+TCK-2026-08-1030,2026-08-04,2026-08-11,live chat,Everett Brooks,exchange_sizing,normal,EVS-847072,EVS-JKT-002,Drift Insulated Parka,outerwear,UK,Rotterdam NL,DPD,Mastercard,5,,replaced,3
+TCK-2026-07-1031,2026-07-26,2026-08-04,email,Amara Boateng,warranty_claim,normal,EVS-972783,EVS-FTW-001,Summit GTX Hiking Boot,footwear,US West,Reno NV,UPS Ground,American Express,7,,closed_no_action,1
+TCK-2025-12-1032,2025-12-05,2025-12-19,live chat,Everett Brooks,exchange_sizing,normal,EVS-850025,EVS-FTW-001,Summit GTX Hiking Boot,footwear,AU/NZ,Reno NV,FedEx Int'l Priority,Klarna Pay-in-4,10,,replaced,5
+TCK-2026-01-1033,2026-01-15,2026-01-23,phone,Priya Raghunathan,damaged_in_transit,high,EVS-842206,EVS-PCK-002,Daybreak 22 Pack,packs,US East,Harrisburg PA,UPS Ground,American Express,6,,replaced,3
+TCK-2025-12-1034,2025-12-23,2025-12-30,web form,Amara Boateng,warranty_claim,normal,EVS-851484,EVS-FTW-001,Summit GTX Hiking Boot,footwear,US East,Harrisburg PA,UPS Ground,Mastercard,5,,closed_no_action,2
+TCK-2025-12-1035,2025-12-01,2025-12-15,phone,Siobhan Carey,shipping_delay,high,EVS-716354,EVS-ELC-001,Lumen 400 Headlamp,electronics,EU,Rotterdam NL,DPD,Visa,10,,replaced,3
+TCK-2025-11-1036,2025-11-22,2025-12-03,web form,Siobhan Carey,shipping_delay,normal,EVS-773685,EVS-ELC-001,Lumen 400 Headlamp,electronics,US East,Harrisburg PA,UPS Ground,Shop Pay,8,,resolved,2
+TCK-2025-12-1037,2025-12-01,2025-12-03,web form,Ines Ferreira,refund_status,normal,EVS-889138,EVS-ACC-002,Belay Glove,accessories,US East,Harrisburg PA,UPS Air Saver,PayPal,2,59.00,refunded,5
+TCK-2025-11-1038,2025-11-06,2025-11-07,phone,Gil Sandoval,product_question,low,EVS-769324,EVS-FTW-002,Creek Approach Shoe,footwear,AU/NZ,Reno NV,FedEx Int'l Priority,PayPal,1,,resolved,1
+TCK-2026-04-1039,2026-04-23,2026-04-29,Instagram DM,Nadia Haddad,return_request,normal,EVS-702806,EVS-ELC-001,Lumen 400 Headlamp,electronics,US Midwest,Harrisburg PA,UPS Ground,Mastercard,4,79.00,refunded,3
+TCK-2025-10-1040,2025-10-27,2025-11-03,web form,Marcus Oyelaran,return_request,normal,EVS-853998,EVS-FTW-002,Creek Approach Shoe,footwear,Japan/SG,Reno NV,DHL Express,Mastercard,5,143.00,refunded,4
+TCK-2025-12-1041,2025-12-26,2026-01-13,email,Amara Boateng,shipping_delay,high,EVS-850740,EVS-JKT-001,Tempest 3L Shell Jacket,outerwear,UK,Rotterdam NL,DPD,Mastercard,12,,resolved,4
+TCK-2026-03-1042,2026-03-28,2026-03-30,web form,Ken Nakamura,product_question,low,EVS-797449,EVS-BAS-002,Ridgeline Merino 200 Bottom,baselayer,Japan/SG,Reno NV,DHL Express,Visa,1,,resolved,2
+TCK-2025-12-1043,2025-12-21,2025-12-31,live chat,Priya Raghunathan,refund_status,normal,EVS-713208,EVS-FTW-002,Creek Approach Shoe,footwear,EU,Rotterdam NL,DHL Express,Visa,8,165.00,refunded,3
+TCK-2026-02-1044,2026-02-10,2026-02-13,email,Gil Sandoval,damaged_in_transit,high,EVS-808916,EVS-FTW-002,Creek Approach Shoe,footwear,US West,Reno NV,UPS Ground,American Express,3,,replaced,4
+TCK-2026-02-1045,2026-02-26,2026-03-11,Instagram DM,Everett Brooks,warranty_claim,normal,EVS-903426,EVS-TEE-001,Basecamp Unisex Tee,apparel,Japan/SG,Reno NV,DHL Express,Visa,9,,replaced,3
+TCK-2025-12-1046,2025-12-20,2026-01-01,web form,Rosa Delgado,warranty_claim,normal,EVS-742681,EVS-BAS-001,Ridgeline Merino 200 Crew,baselayer,US Midwest,Harrisburg PA,UPS Ground,Visa,9,,closed_no_action,
+TCK-2026-08-1047,2026-08-21,2026-09-01,live chat,Amara Boateng,return_request,normal,EVS-823659,EVS-PCK-002,Daybreak 22 Pack,packs,EU,Rotterdam NL,DPD,Mastercard,7,107.00,refunded,5
+TCK-2026-04-1048,2026-04-13,2026-05-04,phone,Everett Brooks,refund_status,normal,EVS-798441,EVS-FTW-002,Creek Approach Shoe,footwear,US East,Harrisburg PA,UPS Ground,Shop Pay,15,165.00,refunded,3
+TCK-2025-10-1049,2025-10-20,2025-10-24,Instagram DM,Gil Sandoval,return_request,normal,EVS-861025,EVS-ACC-001,Stormglass Merino Beanie,accessories,US West,Reno NV,UPS Air Saver,American Express,4,42.00,refunded,2
+TCK-2025-09-1050,2025-09-27,2025-10-07,Instagram DM,Rosa Delgado,refund_status,normal,EVS-914756,EVS-ACC-001,Stormglass Merino Beanie,accessories,Japan/SG,Reno NV,DHL Express,Google Pay,7,42.00,refunded,1
+TCK-2025-12-1051,2025-12-06,2025-12-15,email,Dana Whitcomb,shipping_delay,normal,EVS-714375,EVS-TEE-001,Basecamp Unisex Tee,apparel,US West,Reno NV,UPS Ground,Shop Pay,6,38.00,refunded,1
+TCK-2026-01-1052,2026-01-27,2026-02-02,live chat,Marcus Oyelaran,shipping_delay,normal,EVS-773950,EVS-ACC-002,Belay Glove,accessories,US West,Reno NV,UPS Ground,Shop Pay,4,59.00,refunded,4
+TCK-2025-12-1053,2025-12-27,2026-01-08,Instagram DM,Nadia Haddad,warranty_claim,high,EVS-974014,EVS-FTW-001,Summit GTX Hiking Boot,footwear,EU,Rotterdam NL,DPD,Visa,9,,replaced,1
+TCK-2026-03-1054,2026-03-01,2026-03-05,web form,Nadia Haddad,return_request,normal,EVS-755340,EVS-TEE-001,Basecamp Unisex Tee,apparel,AU/NZ,Reno NV,FedEx Int'l Priority,Apple Pay,4,13.00,refunded,4
+TCK-2026-05-1055,2026-05-20,2026-06-01,Instagram DM,Siobhan Carey,shipping_delay,normal,EVS-923817,EVS-JKT-003,Kestrel Windshell,outerwear,Canada,Reno NV,Canada Post,Klarna Pay-in-4,8,,replaced,4
+TCK-2026-05-1056,2026-05-28,2026-06-08,web form,Dana Whitcomb,warranty_claim,high,EVS-788300,EVS-FTW-001,Summit GTX Hiking Boot,footwear,Canada,Reno NV,Canada Post,Visa,7,,replaced,3
+TCK-2025-10-1057,2025-10-07,2025-10-20,web form,Priya Raghunathan,duties_customs,normal,EVS-828920,EVS-JKT-001,Tempest 3L Shell Jacket,outerwear,EU,Rotterdam NL,DPD,Apple Pay,9,389.00,refunded,
+TCK-2026-01-1058,2026-01-24,2026-01-28,web form,Siobhan Carey,exchange_sizing,normal,EVS-740494,EVS-FTW-001,Summit GTX Hiking Boot,footwear,Japan/SG,Reno NV,DHL Express,Visa,3,,replaced,3
+TCK-2026-08-1059,2026-08-23,2026-08-24,phone,Priya Raghunathan,payment_declined,normal,EVS-961305,EVS-ACC-002,Belay Glove,accessories,AU/NZ,Reno NV,FedEx Int'l Priority,Google Pay,1,,resolved,4
+TCK-2026-06-1060,2026-06-05,2026-06-17,web form,Priya Raghunathan,shipping_delay,normal,EVS-736071,EVS-BAS-001,Ridgeline Merino 200 Crew,baselayer,Japan/SG,Reno NV,DHL Express,Klarna Pay-in-4,8,,resolved,2
+TCK-2025-09-1061,2025-09-04,2025-09-08,web form,Everett Brooks,product_question,low,EVS-786044,EVS-PNT-002,Granite Softshell Pant,apparel,US West,Reno NV,UPS Ground,Apple Pay,2,,resolved,4
+TCK-2026-04-1062,2026-04-25,2026-05-11,phone,Gil Sandoval,refund_status,normal,EVS-726874,EVS-PCK-001,Haul 45 Canvas Pack,packs,US Midwest,Harrisburg PA,UPS 2-Day Air,Shop Pay,11,219.00,refunded,4
+TCK-2026-06-1063,2026-06-19,2026-06-23,web form,Priya Raghunathan,payment_declined,normal,EVS-892906,EVS-JKT-003,Kestrel Windshell,outerwear,Canada,Reno NV,DHL Express,American Express,2,,resolved,5
+TCK-2026-01-1064,2026-01-26,2026-02-12,email,Amara Boateng,shipping_delay,high,EVS-849734,EVS-FTW-002,Creek Approach Shoe,footwear,UK,Rotterdam NL,DHL Express,Mastercard,13,,replaced,
+TCK-2026-04-1065,2026-04-18,2026-04-22,phone,Everett Brooks,damaged_in_transit,high,EVS-795211,EVS-FTW-002,Creek Approach Shoe,footwear,US Midwest,Harrisburg PA,UPS Ground,American Express,3,,replaced,
+TCK-2025-09-1066,2025-09-14,2025-09-26,live chat,Rosa Delgado,lost_parcel,critical,EVS-810980,EVS-PNT-001,Switchback Trail-Stretch Pant,apparel,Canada,Reno NV,Canada Post,Visa,10,,replaced,
+TCK-2026-02-1067,2026-02-24,2026-03-11,Instagram DM,Gil Sandoval,warranty_claim,normal,EVS-954431,EVS-ACC-002,Belay Glove,accessories,UK,Rotterdam NL,DPD,Klarna Pay-in-4,11,,closed_no_action,3
+TCK-2026-01-1068,2026-01-19,2026-01-27,web form,Priya Raghunathan,warranty_claim,normal,EVS-828696,EVS-ELC-002,Cache 10K Power Bank,electronics,UK,Rotterdam NL,DHL Express,Visa,6,,replaced,
+TCK-2026-05-1069,2026-05-26,2026-06-09,email,Gil Sandoval,shipping_delay,normal,EVS-848737,EVS-JKT-001,Tempest 3L Shell Jacket,outerwear,Japan/SG,Reno NV,DHL Express,Klarna Pay-in-4,10,19.95,resolved,4
+TCK-2026-04-1070,2026-04-26,2026-05-06,phone,Ken Nakamura,exchange_sizing,normal,EVS-945857,EVS-BAS-002,Ridgeline Merino 200 Bottom,baselayer,EU,Rotterdam NL,DPD,Visa,8,,replaced,
+TCK-2026-02-1071,2026-02-19,2026-02-25,web form,Everett Brooks,return_request,normal,EVS-932080,EVS-JKT-001,Tempest 3L Shell Jacket,outerwear,Japan/SG,Reno NV,DHL Express,Mastercard,4,374.00,refunded,
+TCK-2026-06-1072,2026-06-18,2026-06-25,web form,Dana Whitcomb,exchange_sizing,normal,EVS-797689,EVS-BAS-001,Ridgeline Merino 200 Crew,baselayer,US Midwest,Harrisburg PA,UPS Ground,Mastercard,5,,replaced,5
+TCK-2025-11-1073,2025-11-22,2025-12-04,web form,Tobias Lindqvist,exchange_sizing,normal,EVS-970946,EVS-FTW-002,Creek Approach Shoe,footwear,EU,Rotterdam NL,DHL Express,Visa,9,,replaced,2
+TCK-2026-07-1074,2026-07-11,2026-07-15,email,Gil Sandoval,payment_declined,normal,EVS-877280,EVS-ACC-001,Stormglass Merino Beanie,accessories,US West,Reno NV,UPS Ground,Google Pay,3,,resolved,1
+TCK-2026-02-1075,2026-02-07,2026-02-20,live chat,Ken Nakamura,refund_status,normal,EVS-991630,EVS-BAS-002,Ridgeline Merino 200 Bottom,baselayer,US East,Harrisburg PA,UPS Air Saver,American Express,10,99.00,refunded,4
+TCK-2025-11-1076,2025-11-23,2025-12-04,phone,Marcus Oyelaran,return_request,normal,EVS-718883,EVS-PCK-002,Daybreak 22 Pack,packs,US Midwest,Harrisburg PA,UPS 2-Day Air,Shop Pay,9,129.00,refunded,2
+TCK-2026-03-1077,2026-03-03,2026-03-09,Instagram DM,Tobias Lindqvist,payment_declined,normal,EVS-924531,EVS-TEE-001,Basecamp Unisex Tee,apparel,Canada,Reno NV,DHL Express,Klarna Pay-in-4,4,,resolved,5
+TCK-2026-06-1078,2026-06-07,2026-06-23,live chat,Everett Brooks,refund_status,normal,EVS-863600,EVS-FTW-002,Creek Approach Shoe,footwear,US East,Harrisburg PA,UPS Air Saver,Shop Pay,12,165.00,refunded,4
+TCK-2025-11-1079,2025-11-09,2025-11-17,phone,Dana Whitcomb,warranty_claim,normal,EVS-902343,EVS-ELC-002,Cache 10K Power Bank,electronics,Canada,Reno NV,Canada Post,American Express,6,,replaced,2
+TCK-2026-03-1080,2026-03-21,2026-03-25,email,Siobhan Carey,shipping_delay,normal,EVS-775115,EVS-BAS-001,Ridgeline Merino 200 Crew,baselayer,Canada,Reno NV,Canada Post,Apple Pay,3,24.95,resolved,2
+TCK-2025-09-1081,2025-09-16,2025-09-29,email,Marcus Oyelaran,warranty_claim,normal,EVS-916509,EVS-TEE-001,Basecamp Unisex Tee,apparel,US West,Reno NV,UPS Ground,Visa,9,,replaced,3
+TCK-2025-12-1082,2025-12-12,2025-12-30,email,Marcus Oyelaran,shipping_delay,high,EVS-723730,EVS-TEE-001,Basecamp Unisex Tee,apparel,EU,Rotterdam NL,DPD,Google Pay,12,38.00,refunded,3
+TCK-2026-01-1083,2026-01-10,2026-01-13,live chat,Marcus Oyelaran,shipping_delay,normal,EVS-903240,EVS-PCK-001,Haul 45 Canvas Pack,packs,US West,Reno NV,UPS Ground,Google Pay,2,,replaced,3
+TCK-2025-12-1084,2025-12-24,2026-01-02,Instagram DM,Dana Whitcomb,exchange_sizing,normal,EVS-888309,EVS-PNT-002,Granite Softshell Pant,apparel,Canada,Reno NV,Canada Post,Klarna Pay-in-4,7,,replaced,5
+TCK-2025-12-1085,2025-12-11,2025-12-15,web form,Rosa Delgado,damaged_in_transit,high,EVS-739923,EVS-BAS-002,Ridgeline Merino 200 Bottom,baselayer,US West,Reno NV,UPS Ground,Visa,2,,replaced,
+TCK-2025-11-1086,2025-11-25,2025-11-28,Instagram DM,Marcus Oyelaran,warranty_claim,normal,EVS-909300,EVS-PCK-001,Haul 45 Canvas Pack,packs,US West,Reno NV,UPS Ground,Apple Pay,3,,closed_no_action,5
+TCK-2026-04-1087,2026-04-17,2026-05-05,live chat,Ines Ferreira,warranty_claim,high,EVS-983750,EVS-FTW-001,Summit GTX Hiking Boot,footwear,UK,Rotterdam NL,DPD,Visa,12,,replaced,3
+TCK-2026-06-1088,2026-06-22,2026-06-29,email,Tobias Lindqvist,return_request,normal,EVS-757522,EVS-PNT-002,Granite Softshell Pant,apparel,UK,Rotterdam NL,DPD,PayPal,5,137.00,refunded,3
+TCK-2026-08-1089,2026-08-07,2026-08-19,Instagram DM,Ines Ferreira,exchange_sizing,normal,EVS-921381,EVS-JKT-002,Drift Insulated Parka,outerwear,EU,Rotterdam NL,DPD,Visa,8,,replaced,
+TCK-2025-11-1090,2025-11-09,2025-11-17,email,Tobias Lindqvist,return_request,normal,EVS-870101,EVS-PNT-001,Switchback Trail-Stretch Pant,apparel,Japan/SG,Reno NV,DHL Express,PayPal,6,114.00,refunded,
+TCK-2026-06-1091,2026-06-28,2026-07-01,email,Amara Boateng,shipping_delay,normal,EVS-951927,EVS-PCK-002,Daybreak 22 Pack,packs,US East,Harrisburg PA,UPS Ground,Shop Pay,3,,replaced,4
+TCK-2026-02-1092,2026-02-13,2026-03-03,live chat,Everett Brooks,refund_status,normal,EVS-868456,EVS-ACC-002,Belay Glove,accessories,US East,Harrisburg PA,UPS Air Saver,Shop Pay,12,59.00,refunded,3
+TCK-2026-05-1093,2026-05-11,2026-05-22,email,Nadia Haddad,return_request,normal,EVS-999104,EVS-PNT-002,Granite Softshell Pant,apparel,UK,Rotterdam NL,DHL Express,Apple Pay,9,140.50,refunded,2
+TCK-2025-09-1094,2025-09-16,2025-09-29,Instagram DM,Amara Boateng,return_request,normal,EVS-859488,EVS-FTW-001,Summit GTX Hiking Boot,footwear,UK,Rotterdam NL,DPD,PayPal,9,226.50,refunded,3
+TCK-2026-01-1095,2026-01-10,2026-01-14,phone,Nadia Haddad,exchange_sizing,normal,EVS-810813,EVS-JKT-003,Kestrel Windshell,outerwear,US West,Reno NV,UPS Ground,PayPal,3,,replaced,5
+TCK-2025-09-1096,2025-09-01,2025-09-08,email,Dana Whitcomb,shipping_delay,high,EVS-872735,EVS-BAS-001,Ridgeline Merino 200 Crew,baselayer,Canada,Reno NV,DHL Express,Visa,5,,replaced,1
+TCK-2026-07-1097,2026-07-12,2026-07-22,email,Everett Brooks,duties_customs,normal,EVS-957192,EVS-FTW-002,Creek Approach Shoe,footwear,UK,Rotterdam NL,DPD,Google Pay,8,14.02,resolved,3
+TCK-2026-04-1098,2026-04-04,2026-04-13,email,Nadia Haddad,exchange_sizing,normal,EVS-894104,EVS-TEE-001,Basecamp Unisex Tee,apparel,EU,Rotterdam NL,DHL Express,Mastercard,6,,replaced,
+TCK-2026-02-1099,2026-02-21,2026-02-26,email,Rosa Delgado,damaged_in_transit,high,EVS-795324,EVS-FTW-002,Creek Approach Shoe,footwear,US East,Harrisburg PA,UPS Ground,American Express,4,,replaced,
+TCK-2025-09-1100,2025-09-22,2025-10-01,web form,Dana Whitcomb,return_request,normal,EVS-997461,EVS-PNT-002,Granite Softshell Pant,apparel,Canada,Reno NV,Canada Post,Apple Pay,7,144.00,refunded,3
+TCK-2026-08-1101,2026-08-24,2026-08-27,phone,Rosa Delgado,product_question,low,EVS-990735,EVS-PNT-001,Switchback Trail-Stretch Pant,apparel,UK,Rotterdam NL,DPD,Apple Pay,3,,resolved,3
+TCK-2026-05-1102,2026-05-17,2026-05-22,Instagram DM,Rosa Delgado,warranty_claim,normal,EVS-815947,EVS-PNT-001,Switchback Trail-Stretch Pant,apparel,Japan/SG,Reno NV,DHL Express,Mastercard,5,,closed_no_action,4
+TCK-2025-12-1103,2025-12-18,2026-01-02,Instagram DM,Everett Brooks,lost_parcel,critical,EVS-713088,EVS-ELC-001,Lumen 400 Headlamp,electronics,Canada,Reno NV,Canada Post,PayPal,11,79.00,refunded,3
+TCK-2025-12-1104,2025-12-06,2025-12-09,email,Everett Brooks,payment_declined,normal,EVS-771751,EVS-ELC-002,Cache 10K Power Bank,electronics,US Midwest,Harrisburg PA,UPS Ground,Visa,2,,resolved,
+TCK-2025-11-1105,2025-11-13,2025-11-20,email,Amara Boateng,refund_status,normal,EVS-871390,EVS-FTW-002,Creek Approach Shoe,footwear,Japan/SG,Reno NV,DHL Express,Apple Pay,5,165.00,refunded,
+TCK-2025-11-1106,2025-11-14,2025-11-27,web form,Siobhan Carey,damaged_in_transit,high,EVS-763488,EVS-ELC-001,Lumen 400 Headlamp,electronics,EU,Rotterdam NL,DPD,Klarna Pay-in-4,9,79.00,refunded,3
+TCK-2026-07-1107,2026-07-20,2026-07-29,live chat,Ines Ferreira,warranty_claim,normal,EVS-890174,EVS-JKT-003,Kestrel Windshell,outerwear,US West,Reno NV,UPS Ground,PayPal,7,,replaced,
+TCK-2026-08-1108,2026-08-09,2026-08-21,email,Dana Whitcomb,duties_customs,normal,EVS-943720,EVS-PCK-001,Haul 45 Canvas Pack,packs,EU,Rotterdam NL,DPD,Apple Pay,10,17.16,resolved,1
+TCK-2026-02-1109,2026-02-06,2026-02-13,live chat,Siobhan Carey,return_request,normal,EVS-953601,EVS-JKT-002,Drift Insulated Parka,outerwear,UK,Rotterdam NL,DPD,Google Pay,5,430.50,refunded,1
+TCK-2025-09-1110,2025-09-23,2025-09-26,live chat,Nadia Haddad,exchange_sizing,normal,EVS-869482,EVS-JKT-001,Tempest 3L Shell Jacket,outerwear,Canada,Reno NV,DHL Express,Visa,3,,replaced,4
+TCK-2026-05-1111,2026-05-01,2026-05-07,email,Nadia Haddad,exchange_sizing,normal,EVS-821752,EVS-JKT-001,Tempest 3L Shell Jacket,outerwear,US Midwest,Harrisburg PA,UPS Ground,Shop Pay,4,,replaced,5
+TCK-2025-12-1112,2025-12-03,2025-12-04,Instagram DM,Marcus Oyelaran,shipping_delay,normal,EVS-914787,EVS-BAS-002,Ridgeline Merino 200 Bottom,baselayer,US East,Harrisburg PA,UPS Ground,Visa,1,,replaced,3
+TCK-2026-03-1113,2026-03-13,2026-03-17,email,Siobhan Carey,exchange_sizing,normal,EVS-897994,EVS-BAS-002,Ridgeline Merino 200 Bottom,baselayer,US Midwest,Harrisburg PA,UPS 2-Day Air,American Express,2,,replaced,1
+TCK-2026-01-1114,2026-01-17,2026-02-04,Instagram DM,Amara Boateng,lost_parcel,critical,EVS-915512,EVS-FTW-001,Summit GTX Hiking Boot,footwear,AU/NZ,Reno NV,FedEx Int'l Priority,Mastercard,13,,replaced,
+TCK-2025-12-1115,2025-12-30,2026-01-09,web form,Dana Whitcomb,address_change,high,EVS-705763,EVS-ACC-002,Belay Glove,accessories,EU,Rotterdam NL,DPD,PayPal,8,,escalated,
+TCK-2026-02-1116,2026-02-02,2026-02-05,email,Ines Ferreira,return_request,normal,EVS-768118,EVS-JKT-003,Kestrel Windshell,outerwear,AU/NZ,Reno NV,FedEx Int'l Priority,Visa,3,127.00,refunded,4
+TCK-2026-02-1117,2026-02-25,2026-03-05,Instagram DM,Tobias Lindqvist,return_request,normal,EVS-844534,EVS-BAS-002,Ridgeline Merino 200 Bottom,baselayer,UK,Rotterdam NL,DPD,Visa,6,74.00,refunded,4
+TCK-2026-04-1118,2026-04-13,2026-04-29,phone,Gil Sandoval,lost_parcel,critical,EVS-855189,EVS-FTW-001,Summit GTX Hiking Boot,footwear,US East,Harrisburg PA,UPS Ground,Google Pay,12,245.00,refunded,5
+TCK-2025-10-1119,2025-10-23,2025-10-30,Instagram DM,Tobias Lindqvist,shipping_delay,normal,EVS-842259,EVS-JKT-003,Kestrel Windshell,outerwear,US West,Reno NV,UPS Air Saver,Google Pay,5,,resolved,
+TCK-2026-06-1120,2026-06-22,2026-07-07,phone,Marcus Oyelaran,refund_status,normal,EVS-995199,EVS-ELC-001,Lumen 400 Headlamp,electronics,US Midwest,Harrisburg PA,UPS Ground,Shop Pay,11,79.00,refunded,4
+TCK-2026-04-1121,2026-04-10,2026-04-20,Instagram DM,Marcus Oyelaran,address_change,high,EVS-908511,EVS-FTW-001,Summit GTX Hiking Boot,footwear,EU,Rotterdam NL,DPD,Mastercard,6,,escalated,4
+TCK-2025-09-1122,2025-09-04,2025-09-09,email,Rosa Delgado,shipping_delay,high,EVS-943047,EVS-ELC-001,Lumen 400 Headlamp,electronics,US Midwest,Harrisburg PA,UPS Ground,Mastercard,3,,replaced,5
+TCK-2026-01-1123,2026-01-20,2026-02-09,phone,Siobhan Carey,lost_parcel,critical,EVS-842300,EVS-JKT-002,Drift Insulated Parka,outerwear,UK,Rotterdam NL,DPD,Apple Pay,14,,replaced,
+TCK-2026-07-1124,2026-07-25,2026-07-28,email,Gil Sandoval,payment_declined,normal,EVS-971636,EVS-PCK-001,Haul 45 Canvas Pack,packs,AU/NZ,Reno NV,FedEx Int'l Priority,Visa,2,,resolved,
+TCK-2025-12-1125,2025-12-19,2026-01-05,live chat,Marcus Oyelaran,lost_parcel,critical,EVS-912571,EVS-ELC-001,Lumen 400 Headlamp,electronics,Japan/SG,Reno NV,DHL Express,Mastercard,11,,replaced,3
+TCK-2026-01-1126,2026-01-27,2026-02-19,phone,Ines Ferreira,shipping_delay,high,EVS-924611,EVS-ELC-001,Lumen 400 Headlamp,electronics,EU,Rotterdam NL,DHL Express,Klarna Pay-in-4,17,79.00,refunded,3
+TCK-2026-04-1127,2026-04-26,2026-04-28,email,Everett Brooks,duties_customs,normal,EVS-815767,EVS-JKT-002,Drift Insulated Parka,outerwear,AU/NZ,Reno NV,FedEx Int'l Priority,Visa,2,449.00,refunded,1
+TCK-2026-05-1128,2026-05-22,2026-05-26,Instagram DM,Nadia Haddad,return_request,normal,EVS-873638,EVS-JKT-003,Kestrel Windshell,outerwear,US Midwest,Harrisburg PA,UPS Ground,Google Pay,2,149.00,refunded,3
+TCK-2026-02-1129,2026-02-05,2026-02-10,phone,Dana Whitcomb,shipping_delay,normal,EVS-810532,EVS-JKT-002,Drift Insulated Parka,outerwear,US East,Harrisburg PA,UPS Ground,Mastercard,3,,resolved,3
+TCK-2026-07-1130,2026-07-29,2026-08-03,Instagram DM,Amara Boateng,exchange_sizing,normal,EVS-944199,EVS-JKT-001,Tempest 3L Shell Jacket,outerwear,Japan/SG,Reno NV,DHL Express,Visa,3,,replaced,1
+TCK-2026-01-1131,2026-01-17,2026-01-28,web form,Everett Brooks,return_request,normal,EVS-975099,EVS-ELC-002,Cache 10K Power Bank,electronics,UK,Rotterdam NL,DPD,Visa,8,44.00,refunded,2
+TCK-2025-12-1132,2025-12-04,2025-12-09,web form,Amara Boateng,duties_customs,normal,EVS-972083,EVS-TEE-001,Basecamp Unisex Tee,apparel,US Midwest,Harrisburg PA,UPS Ground,Apple Pay,3,38.00,refunded,4
+TCK-2025-12-1133,2025-12-08,2025-12-22,live chat,Everett Brooks,shipping_delay,high,EVS-797177,EVS-ELC-001,Lumen 400 Headlamp,electronics,EU,Rotterdam NL,DHL Express,Mastercard,10,79.00,refunded,4
+TCK-2026-04-1134,2026-04-21,2026-05-06,phone,Tobias Lindqvist,lost_parcel,critical,EVS-947662,EVS-BAS-002,Ridgeline Merino 200 Bottom,baselayer,Canada,Reno NV,Canada Post,American Express,11,99.00,refunded,4
+TCK-2025-11-1135,2025-11-03,2025-11-05,email,Priya Raghunathan,product_question,low,EVS-972146,EVS-PNT-002,Granite Softshell Pant,apparel,US Midwest,Harrisburg PA,UPS Ground,Mastercard,2,,resolved,3
+TCK-2026-08-1136,2026-08-21,2026-08-25,phone,Dana Whitcomb,exchange_sizing,normal,EVS-755038,EVS-PNT-002,Granite Softshell Pant,apparel,AU/NZ,Reno NV,FedEx Int'l Priority,Google Pay,2,,replaced,3
+TCK-2025-12-1137,2025-12-14,2025-12-26,phone,Amara Boateng,return_request,normal,EVS-794349,EVS-JKT-003,Kestrel Windshell,outerwear,EU,Rotterdam NL,DPD,American Express,10,130.50,refunded,4
+TCK-2025-09-1138,2025-09-29,2025-10-06,Instagram DM,Amara Boateng,damaged_in_transit,high,EVS-702848,EVS-ELC-002,Cache 10K Power Bank,electronics,US West,Reno NV,UPS Ground,Google Pay,5,,replaced,1
+TCK-2025-10-1139,2025-10-03,2025-10-06,email,Ines Ferreira,shipping_delay,normal,EVS-816918,EVS-ELC-002,Cache 10K Power Bank,electronics,Japan/SG,Reno NV,DHL Express,Google Pay,1,69.00,refunded,4
+TCK-2025-10-1140,2025-10-19,2025-10-24,web form,Dana Whitcomb,warranty_claim,normal,EVS-884773,EVS-PCK-002,Daybreak 22 Pack,packs,AU/NZ,Reno NV,FedEx Int'l Priority,Mastercard,5,,replaced,3
+TCK-2026-02-1141,2026-02-18,2026-02-23,phone,Rosa Delgado,refund_status,normal,EVS-727700,EVS-JKT-002,Drift Insulated Parka,outerwear,US West,Reno NV,UPS Ground,PayPal,3,449.00,refunded,5
+TCK-2025-10-1142,2025-10-16,2025-10-20,Instagram DM,Priya Raghunathan,address_change,high,EVS-985404,EVS-FTW-001,Summit GTX Hiking Boot,footwear,US Midwest,Harrisburg PA,UPS Ground,Google Pay,2,,resolved,3
+TCK-2025-12-1143,2025-12-21,2026-01-05,Instagram DM,Rosa Delgado,warranty_claim,high,EVS-992991,EVS-FTW-001,Summit GTX Hiking Boot,footwear,UK,Rotterdam NL,DPD,Visa,11,,replaced,1
+TCK-2026-04-1144,2026-04-05,2026-04-07,Instagram DM,Rosa Delgado,exchange_sizing,normal,EVS-770535,EVS-BAS-001,Ridgeline Merino 200 Crew,baselayer,Japan/SG,Reno NV,DHL Express,Visa,2,,replaced,4
+TCK-2026-07-1145,2026-07-29,2026-08-10,live chat,Rosa Delgado,warranty_claim,high,EVS-932166,EVS-FTW-001,Summit GTX Hiking Boot,footwear,AU/NZ,Reno NV,FedEx Int'l Priority,Visa,8,,replaced,5
+TCK-2026-08-1146,2026-08-20,2026-08-25,Instagram DM,Ken Nakamura,damaged_in_transit,high,EVS-916173,EVS-PCK-001,Haul 45 Canvas Pack,packs,US East,Harrisburg PA,UPS Ground,American Express,3,,replaced,1
+TCK-2026-07-1147,2026-07-23,2026-08-04,email,Priya Raghunathan,shipping_delay,normal,EVS-763810,EVS-TEE-001,Basecamp Unisex Tee,apparel,Japan/SG,Reno NV,DHL Express,Klarna Pay-in-4,8,38.00,refunded,
+TCK-2026-05-1148,2026-05-23,2026-06-01,phone,Marcus Oyelaran,warranty_claim,normal,EVS-779385,EVS-ELC-002,Cache 10K Power Bank,electronics,Canada,Reno NV,Canada Post,Apple Pay,6,,replaced,5
+TCK-2026-02-1149,2026-02-09,2026-02-23,phone,Dana Whitcomb,warranty_claim,normal,EVS-985993,EVS-PNT-002,Granite Softshell Pant,apparel,UK,Rotterdam NL,DPD,Google Pay,10,,replaced,1
+TCK-2026-01-1150,2026-01-13,2026-01-29,phone,Rosa Delgado,lost_parcel,critical,EVS-786395,EVS-ELC-001,Lumen 400 Headlamp,electronics,US Midwest,Harrisburg PA,UPS Ground,Google Pay,12,79.00,refunded,2
+TCK-2025-09-1151,2025-09-28,2025-10-06,Instagram DM,Gil Sandoval,warranty_claim,normal,EVS-769288,EVS-TEE-001,Basecamp Unisex Tee,apparel,US Midwest,Harrisburg PA,UPS Ground,Google Pay,6,,replaced,
+TCK-2025-12-1152,2025-12-30,2026-01-13,email,Nadia Haddad,return_request,normal,EVS-764467,EVS-BAS-001,Ridgeline Merino 200 Crew,baselayer,UK,Rotterdam NL,DPD,Apple Pay,10,70.50,refunded,4
+TCK-2026-01-1153,2026-01-02,2026-01-16,web form,Marcus Oyelaran,exchange_sizing,normal,EVS-811207,EVS-PNT-001,Switchback Trail-Stretch Pant,apparel,EU,Rotterdam NL,DPD,Klarna Pay-in-4,10,,replaced,
+TCK-2025-10-1154,2025-10-24,2025-10-28,phone,Gil Sandoval,shipping_delay,normal,EVS-977917,EVS-JKT-001,Tempest 3L Shell Jacket,outerwear,Japan/SG,Reno NV,DHL Express,PayPal,2,,resolved,4
+TCK-2025-12-1155,2025-12-13,2026-01-02,email,Marcus Oyelaran,lost_parcel,critical,EVS-737593,EVS-ACC-002,Belay Glove,accessories,UK,Rotterdam NL,DPD,PayPal,15,,replaced,5
+TCK-2026-02-1156,2026-02-28,2026-03-09,email,Marcus Oyelaran,warranty_claim,normal,EVS-851984,EVS-BAS-002,Ridgeline Merino 200 Bottom,baselayer,Canada,Reno NV,Canada Post,Visa,6,,replaced,3
+TCK-2026-06-1157,2026-06-17,2026-06-19,live chat,Tobias Lindqvist,product_question,low,EVS-810622,EVS-FTW-002,Creek Approach Shoe,footwear,US Midwest,Harrisburg PA,UPS Ground,Visa,2,,resolved,4
+TCK-2026-04-1158,2026-04-21,2026-04-29,phone,Ken Nakamura,shipping_delay,high,EVS-743292,EVS-JKT-002,Drift Insulated Parka,outerwear,AU/NZ,Reno NV,FedEx Int'l Priority,Visa,6,,replaced,
+TCK-2026-02-1159,2026-02-27,2026-03-06,live chat,Everett Brooks,exchange_sizing,normal,EVS-804808,EVS-JKT-002,Drift Insulated Parka,outerwear,UK,Rotterdam NL,DPD,Visa,5,,replaced,4
+TCK-2026-01-1160,2026-01-08,2026-01-21,Instagram DM,Dana Whitcomb,shipping_delay,high,EVS-725138,EVS-BAS-002,Ridgeline Merino 200 Bottom,baselayer,EU,Rotterdam NL,DPD,Apple Pay,9,,replaced,4
+TCK-2026-06-1161,2026-06-10,2026-06-19,phone,Tobias Lindqvist,lost_parcel,critical,EVS-732619,EVS-JKT-003,Kestrel Windshell,outerwear,US Midwest,Harrisburg PA,UPS Ground,Visa,7,,replaced,3
+TCK-2026-02-1162,2026-02-18,2026-02-26,live chat,Marcus Oyelaran,warranty_claim,normal,EVS-871640,EVS-FTW-001,Summit GTX Hiking Boot,footwear,AU/NZ,Reno NV,FedEx Int'l Priority,Mastercard,6,,closed_no_action,3
+TCK-2025-11-1163,2025-11-07,2025-11-19,live chat,Nadia Haddad,refund_status,normal,EVS-874673,EVS-BAS-001,Ridgeline Merino 200 Crew,baselayer,US Midwest,Harrisburg PA,UPS Ground,Visa,8,89.00,refunded,3
+TCK-2026-06-1164,2026-06-09,2026-06-18,email,Ines Ferreira,return_request,normal,EVS-788826,EVS-JKT-001,Tempest 3L Shell Jacket,outerwear,US East,Harrisburg PA,UPS Ground,Apple Pay,7,389.00,refunded,1
+TCK-2025-11-1165,2025-11-22,2025-11-26,phone,Amara Boateng,warranty_claim,high,EVS-712635,EVS-FTW-001,Summit GTX Hiking Boot,footwear,Japan/SG,Reno NV,DHL Express,American Express,3,,replaced,4
+TCK-2026-06-1166,2026-06-18,2026-06-25,live chat,Tobias Lindqvist,refund_status,normal,EVS-889489,EVS-PNT-002,Granite Softshell Pant,apparel,AU/NZ,Reno NV,FedEx Int'l Priority,Visa,5,159.00,refunded,4
+TCK-2026-01-1167,2026-01-25,2026-01-30,phone,Gil Sandoval,return_request,normal,EVS-828977,EVS-JKT-003,Kestrel Windshell,outerwear,US West,Reno NV,UPS Ground,American Express,5,149.00,refunded,5
+TCK-2026-08-1168,2026-08-19,2026-08-31,web form,Siobhan Carey,refund_status,normal,EVS-779955,EVS-FTW-002,Creek Approach Shoe,footwear,US Midwest,Harrisburg PA,UPS Ground,Visa,8,165.00,refunded,5
+TCK-2025-12-1169,2025-12-06,2025-12-09,Instagram DM,Priya Raghunathan,shipping_delay,normal,EVS-838612,EVS-FTW-002,Creek Approach Shoe,footwear,US West,Reno NV,UPS Ground,Mastercard,2,,replaced,5
+TCK-2026-08-1170,2026-08-22,2026-08-31,Instagram DM,Marcus Oyelaran,exchange_sizing,normal,EVS-721688,EVS-PNT-002,Granite Softshell Pant,apparel,EU,Rotterdam NL,DPD,PayPal,6,,replaced,
+TCK-2026-08-1171,2026-08-02,2026-08-04,phone,Gil Sandoval,damaged_in_transit,high,EVS-784682,EVS-ELC-002,Cache 10K Power Bank,electronics,Canada,Reno NV,Canada Post,American Express,2,69.00,refunded,5
+TCK-2025-12-1172,2025-12-22,2025-12-31,web form,Everett Brooks,return_request,normal,EVS-956321,EVS-FTW-002,Creek Approach Shoe,footwear,US Midwest,Harrisburg PA,UPS Ground,Visa,7,165.00,refunded,
+TCK-2025-09-1173,2025-09-02,2025-09-09,Instagram DM,Nadia Haddad,shipping_delay,normal,EVS-781409,EVS-JKT-002,Drift Insulated Parka,outerwear,US Midwest,Harrisburg PA,UPS Ground,Shop Pay,5,,replaced,5
+TCK-2026-05-1174,2026-05-27,2026-06-03,phone,Marcus Oyelaran,return_request,normal,EVS-843389,EVS-PNT-002,Granite Softshell Pant,apparel,US West,Reno NV,UPS Air Saver,Visa,5,159.00,refunded,4
+TCK-2026-01-1175,2026-01-15,2026-01-16,live chat,Ken Nakamura,shipping_delay,normal,EVS-745926,EVS-JKT-002,Drift Insulated Parka,outerwear,Japan/SG,Reno NV,DHL Express,Visa,1,449.00,refunded,5
+TCK-2026-07-1176,2026-07-10,2026-07-16,live chat,Dana Whitcomb,duties_customs,normal,EVS-738663,EVS-JKT-001,Tempest 3L Shell Jacket,outerwear,Japan/SG,Reno NV,DHL Express,Apple Pay,4,29.32,resolved,3
+TCK-2026-04-1177,2026-04-04,2026-04-15,email,Dana Whitcomb,refund_status,normal,EVS-977252,EVS-FTW-001,Summit GTX Hiking Boot,footwear,Japan/SG,Reno NV,DHL Express,American Express,8,245.00,refunded,3
+TCK-2026-01-1178,2026-01-25,2026-02-02,phone,Gil Sandoval,order_cancellation,normal,EVS-861791,EVS-PNT-001,Switchback Trail-Stretch Pant,apparel,EU,Rotterdam NL,DPD,Visa,6,129.00,refunded,1
+TCK-2025-12-1179,2025-12-10,2025-12-16,email,Ines Ferreira,address_change,high,EVS-824850,EVS-JKT-003,Kestrel Windshell,outerwear,US Midwest,Harrisburg PA,UPS Ground,PayPal,4,,escalated,4
